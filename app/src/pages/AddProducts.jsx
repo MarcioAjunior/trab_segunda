@@ -1,4 +1,5 @@
-import { useEffect, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+
 import styled from "styled-components";
 import {mobile} from "../responsive";
 import { login, saveProduct } from "../redux/apiCalls";
