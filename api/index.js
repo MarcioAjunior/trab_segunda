@@ -29,6 +29,7 @@ mongoose
       await prisma.$queryRaw`SELECT 1`;
       console.log('Conexão com o Prisma estabelecida com sucesso!');
     } catch (error) {
+      
       console.error('Erro ao conectar com o Prisma:', error);
     } finally {
       await prisma.$disconnect();
